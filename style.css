@@ -1,0 +1,46 @@
+        body {
+            background-color: #161B22;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin-left: 15px;
+        }
+
+        .style-text {
+                font-family: Ubuntu, Verdana, sans-serif;
+
+        }
+
+        .main-text {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 48px;
+
+        }
+            
+        footer {
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #04020f; 
+            color: white;
+        }
+
+        .img {
+            margin-left: 500px;
+            margin-top: -75px;
+        }
+            
+
+            @media (max-width: 767px) {
+                .container {
+                  width: 300px;
+                }
+              }
+              
+              @media (max-width: 767px) {
+                .navigate {
+                  grid-template-columns: 1fr; 
+                  text-align: center; 
+                }
+              }
